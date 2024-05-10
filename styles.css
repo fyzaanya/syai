@@ -1,0 +1,93 @@
+:root {
+    --color-primary-dark: #31261A;
+    --color-primary-light: #ffffff;
+    --color-brand-light: #f2bac9;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--color-primary-dark);
+    background-color: var(--color-primary-light);
+    font-family: 'Arsenal', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+    margin-top: 0;
+}
+
+a {
+    display: inline-block;
+}
+
+.section {
+    padding: 48px 0;
+}
+
+address {
+    font-style: normal;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+}
+
+.button {
+    padding: 16px 32px;
+    color: var(--color-primary-light);
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid var(--color-brand-light);
+    background-color: var(--color-brand-light);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+.link {
+    color: var(--color-primary-light);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: var(--color-brand-light);
+}
+
+/* Header */
+
